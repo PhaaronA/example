@@ -556,7 +556,7 @@ body{
   justify-content: center;
   align-items: center;
   &-block{
-    height: 400px;
+    min-height: 400px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -687,10 +687,14 @@ body{
 }
 .error{
 position: absolute;
+
 top: 110%;
 left: 50%;
 transform: translateX(-50%);
 display: none;
+@include respond-to("sm") {
+  margin-top: 15px;
+}
 }
 .visible{
   display: block;
