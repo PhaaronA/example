@@ -997,7 +997,7 @@ body {
   align-items: center;
 }
 .contact-block {
-  height: 400px;
+  min-height: 400px;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -1147,6 +1147,11 @@ body {
   left: 50%;
   transform: translateX(-50%);
   display: none;
+}
+@media (max-width: 576px) {
+  .error {
+    margin-top: 15px;
+  }
 }
 
 .visible {
