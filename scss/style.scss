@@ -241,7 +241,7 @@ body{
 }
 
 .wrapper_header{
-  background-image: url(/img/backHead.png);
+  background-image: url(../img/backHead.png);
   @include backImg;
 }
 .header{
@@ -547,7 +547,7 @@ body{
 }
 .footer{
   @include backImg;
-  background: url(/img/footer.png);
+  background: url(../img/footer.png);
   padding-top: 80px;
 }
 .contact{
