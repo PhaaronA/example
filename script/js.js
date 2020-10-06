@@ -85,15 +85,15 @@ $("body").on('click', '[href*="#"]', function (e) {
     e.preventDefault();
 });
 
-enter.onclick = function () {
-    let val = document.getElementById('password').value;
-    let pass = [1, 2, 3];
-    for (let i = 0; i < pass.length; i++) {
-        if (pass[i] == val) {
-            $('.unvisible').removeClass('unvisible');
-            $('.input').addClass('unvisible');
-        } else {
-            $('.title_blue').addClass('visible');
-        }
-    }
-};
+// enter.onclick = function () {
+//     let val = document.getElementById('password').value;
+//     let pass = [1, 2, 3];
+//     for (let i = 0; i < pass.length; i++) {
+//         if (pass[i] == val) {
+//             $('.unvisible').removeClass('unvisible');
+//             $('.input').addClass('unvisible');
+//         } else {
+//             $('.title_blue').addClass('visible');
+//         }
+//     }
+// };
